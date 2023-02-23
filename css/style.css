@@ -72,6 +72,7 @@ img {
 
     main {
         padding-bottom: 10vh;
+        row-gap: 5vh;
     }
 
     main > section > section {
@@ -106,6 +107,39 @@ img {
     }
 
     footer a {
+        color: whitesmoke;
+    }
+
+    /** TESTIMONIALS **/
+    .testimonials {
+        background-image: url("/img/bg-header.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .testimonials > article {
+        row-gap: 4vh;
+        padding: 15% 5%;
+        background-color: rgba(30,30,30,.8);
+    }
+
+    .testimonials i {
+        font-size: 28px;
+        color: var(--mainColor);
+    }
+
+    .testimonials h5 {
+        color: orange;
+    }
+
+    .testimonials span {
+        color: whitesmoke;
+        font-weight: 700;
+    }
+
+    .testimonials p {
         color: whitesmoke;
     }
 
