@@ -517,3 +517,15 @@ img {
         cursor: pointer;
     }
 }
+
+@media (min-width: 1000px) {
+
+    .contact aside {
+        width: 96%;
+        justify-content: space-between;
+    }
+
+    .contact aside input {
+        width: 40%;
+    }
+}
