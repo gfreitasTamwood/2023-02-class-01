@@ -394,3 +394,227 @@ img {
         border-radius: 25px;
     }
 }
+
+/** TABLET **/
+@media (min-width: 600px) {
+
+    header {
+        min-height: 70vh;
+    }
+
+    header > article {
+        padding: 5%;
+    }
+
+    header h2 {
+        font-weight: 400;
+    }
+
+    header section > [href="#"] {
+        width: 30%;
+        font-weight: 600;
+        transition: .6s;
+    }
+
+    header section > [href="#"]:hover {
+        background-color: white;
+        color: var(--mainColor);
+    }
+
+    /** ABOUT **/
+    .about > figure {
+        flex-direction: row-reverse;
+        column-gap: 3vw;
+    }
+
+    .about img {
+        width: 60vw;
+        height: 40vh;
+    }
+
+    .about a {
+        transition: .6s;
+        width: 20vw;
+    }
+
+    .about a:hover {
+        column-gap: 6vw;
+    }
+
+    /** SERVICES **/
+    .services {
+        row-gap: 5vh;
+    }
+
+    .services > section {
+        flex-wrap: wrap;
+        flex-direction: row;
+        column-gap: 2vw;
+        row-gap: 2vh;
+        justify-content: center;
+    }
+
+    .services aside {
+        width: 40%;
+        min-height: 30vh;
+    }
+
+    /** GALLERY **/
+    .gallery {
+        align-items: center;
+    }
+
+    .gallery img {
+        width: 50%;
+        height: 30vh;
+    }
+
+    .gallery > article {
+        width: 80%;
+    }
+
+    /** TESTIMONIALS **/
+    .testimonials i {
+        font-size: 40px;
+    }
+
+    /** CONTACT **/
+    .contact {
+        width: 90%;
+    }
+
+    .about h2,
+    .services h2,
+    .gallery h2,
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .about h6,
+    .services h6,
+    .gallery h6,
+    .contact h6 {
+        width: 40%;
+    }
+
+    .contact > section {
+        flex-direction: row;
+        width: 80%;
+        column-gap: 6vh;
+    }
+
+    [type="submit"] {
+        width: 70%;
+        border-radius: 30px;
+        padding: 2vh;
+        transition: .6s;
+        border: 2px solid var(--mainColor);
+    }
+
+    [type="submit"]:hover {
+        background-color: white;
+        color: var(--mainColor);
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav > ul {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    nav a {
+        color: white;
+        transition: .6s;
+    }
+
+    nav a:hover {
+        color: orange;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header p {
+        width: 50%;
+        font-size: 24px;
+    }
+
+    nav h2 {
+        font-size: 28px;
+    }
+
+    main {
+        row-gap: 10vh;
+    }
+
+    /** ABOUT **/
+    .about {
+        align-items: center;
+    }
+
+    .about a {
+        width: 15vw;
+    }
+
+    .about > article {
+        width: 50%;
+    }
+
+    /** SERVICES **/
+    .services aside {
+        width: 25%;
+    }
+
+    /** GALLERY **/
+    .gallery {
+        padding-bottom: 10vh;
+    }
+
+    .gallery img {
+        width: 33.33%;
+    }
+
+    .gallery > article {
+        width: 50%;
+    }
+
+    /** TESTIMONIALS **/
+    .testimonials {
+        width: 100%;
+    }
+
+    .testimonials > article {
+        row-gap: 6vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .testimonials p {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .testimonials i {
+        font-size: 58px;
+    }
+
+    .contact aside {
+        width: 96%;
+        justify-content: space-between;
+    }
+
+    .contact aside input {
+        width: 40%;
+    }
+}
