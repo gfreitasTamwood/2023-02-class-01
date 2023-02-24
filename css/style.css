@@ -524,6 +524,19 @@ img {
         row-gap: 10vh;
     }
 
+    /** ABOUT **/
+    .about {
+        align-items: center;
+    }
+
+    .about a {
+        width: 15vw;
+    }
+
+    .about > article {
+        width: 50%;
+    }
+
     /** SERVICES **/
     .services aside {
         width: 25%;
