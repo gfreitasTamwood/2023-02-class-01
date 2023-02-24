@@ -398,6 +398,24 @@ img {
 /** TABLET **/
 @media (min-width: 600px) {
 
+    /** SERVICES **/
+    .services {
+        row-gap: 5vh;
+    }
+
+    .services > section {
+        flex-wrap: wrap;
+        flex-direction: row;
+        column-gap: 2vw;
+        row-gap: 2vh;
+        justify-content: center;
+    }
+
+    .services aside {
+        width: 40%;
+        min-height: 30vh;
+    }
+
     /** GALLERY **/
     .gallery {
         align-items: center;
