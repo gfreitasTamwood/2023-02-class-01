@@ -524,6 +524,10 @@ img {
         row-gap: 10vh;
     }
 
+    /** SERVICES **/
+    .services aside {
+        width: 25%;
+    }
 
     /** GALLERY **/
     .gallery {
