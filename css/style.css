@@ -520,6 +520,40 @@ img {
 
 @media (min-width: 1000px) {
 
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav > ul {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    nav a {
+        color: white;
+        transition: .6s;
+    }
+
+    nav a:hover {
+        color: orange;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header p {
+        width: 50%;
+        font-size: 24px;
+    }
+
+    nav h2 {
+        font-size: 28px;
+    }
+
     main {
         row-gap: 10vh;
     }
