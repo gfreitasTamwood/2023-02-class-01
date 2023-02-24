@@ -398,6 +398,26 @@ img {
 /** TABLET **/
 @media (min-width: 600px) {
 
+    /** ABOUT **/
+    .about > figure {
+        flex-direction: row-reverse;
+        column-gap: 3vw;
+    }
+
+    .about img {
+        width: 60vw;
+        height: 40vh;
+    }
+
+    .about a {
+        transition: .6s;
+        width: 20vw;
+    }
+
+    .about a:hover {
+        column-gap: 6vw;
+    }
+
     /** SERVICES **/
     .services {
         row-gap: 5vh;
