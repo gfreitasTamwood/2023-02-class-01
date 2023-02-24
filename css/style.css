@@ -394,3 +394,40 @@ img {
         border-radius: 25px;
     }
 }
+
+/** TABLET **/
+@media (min-width: 600px) {
+
+    /** CONTACT **/
+    .contact {
+        width: 90%;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .contact h6 {
+        width: 40%;
+    }
+
+    .contact > section {
+        flex-direction: row;
+        width: 80%;
+        column-gap: 6vh;
+    }
+
+    [type="submit"] {
+        width: 70%;
+        border-radius: 30px;
+        padding: 2vh;
+        transition: .6s;
+        border: 2px solid var(--mainColor);
+    }
+
+    [type="submit"]:hover {
+        background-color: white;
+        color: var(--mainColor);
+        cursor: pointer;
+    }
+}
