@@ -520,6 +520,24 @@ img {
 
 @media (min-width: 1000px) {
 
+    main {
+        row-gap: 10vh;
+    }
+
+
+    /** GALLERY **/
+    .gallery {
+        padding-bottom: 10vh;
+    }
+
+    .gallery img {
+        width: 33.33%;
+    }
+
+    .gallery > article {
+        width: 50%;
+    }
+
     /** TESTIMONIALS **/
     .testimonials {
         width: 100%;
